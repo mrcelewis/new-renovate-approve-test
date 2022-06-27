@@ -1,0 +1,9 @@
+name: action-cl
+on: [push]
+
+jobs:
+  custom_test:
+    runs-on: ubuntu-latest
+    name: action-cl
+    steps:
+      - uses: mrcelewis/my-reno-test@main # Uses an action in the root directory
