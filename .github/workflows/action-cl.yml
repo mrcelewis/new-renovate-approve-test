@@ -1,5 +1,5 @@
 name: action-cl
-on: [push]
+on: pull_request
 
 jobs:
   custom_test:
