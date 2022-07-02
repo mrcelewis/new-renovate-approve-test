@@ -7,7 +7,7 @@ GitPython==3.1.27
 idna==2.10
 PyGithub==1.54
 PyJWT==2.4.0
-PyYAML==5.4
+PyYAML==5.4.1
 requests==2.24.0
 smmap==5.0.0
 urllib3==1.26.9
