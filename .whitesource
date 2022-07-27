@@ -19,12 +19,12 @@
   "remediateSettings": {
     "minVulnerabilitySeverity": "LOW",
     "enableRenovate": "true",
+    "extends": ["github>whitesource/merge-confidence:beta"],
     "requiredStatusChecks": "null",
     "transitiveRemediation" : "true",
     "automerge": "true",
     "automergeType": "pr",
     "ignoreTests": true
-    },
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    }
 }
 
